@@ -1,6 +1,7 @@
 {
   "name": "tikapi",
   "version": "1.0.0",
+  "description": "TikTok random no-watermark video API using Tikwm",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
