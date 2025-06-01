@@ -210,9 +210,10 @@ app.get("/tikrandom", async (req, res) => {
     }
 
     return res.json({
-  url: data.data.play,
-  desc: random.desc,
-  title: data.data.title || "TikTok clip",
+      url: data.data.play,
+      desc: random.desc,
+      title: data.data.title || "TikTok clip"
+    });
 
   } catch (err) {
     console.error("❌ API error:", err.message);
