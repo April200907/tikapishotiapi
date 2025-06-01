@@ -186,7 +186,6 @@ const tiktokVideos = [ { url: "https://vt.tiktok.com/ZSkNNuMjW/" },
 { url: "https://vt.tiktok.com/ZSk8q21fs/" },
 { url: "https://vt.tiktok.com/ZSk8pJ5yT/" },
 { url: "https://vt.tiktok.com/ZSk8gKghJ/" }, 
-   });
 ];
 
 app.get("/tikrandom", async (req, res) => {
