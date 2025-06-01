@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 app.use(cors());
 
 // TikTok links + desc
-const tiktokVideos = [{ url: "https://vt.tiktok.com/ZSkNNuMjW/" }, 
+const tiktokVideos = [ { url: "https://vt.tiktok.com/ZSkNNuMjW/" }, 
 { url: "https://vt.tiktok.com/ZSkNNVbsy/" }, 
 { url: "https://vt.tiktok.com/ZSkNNkWYt/" }, 
 { url: "https://vt.tiktok.com/ZSkNNg2N1/" }, 
@@ -30,7 +30,7 @@ const tiktokVideos = [{ url: "https://vt.tiktok.com/ZSkNNuMjW/" },
 { url: "https://vt.tiktok.com/ZSkNFHXTc/" }, 
 { url: "https://vt.tiktok.com/ZSkNF6moS/" }, 
 { url: "https://vt.tiktok.com/ZSkNFPVNT/" }, 
-{ url: "https://vt.tiktok.com/ZSkNF5AxV/" " }, 
+{ url: "https://vt.tiktok.com/ZSkNF5AxV/" }, 
 { url: "https://vt.tiktok.com/ZSkNFjBrs/" }, 
 { url: "https://vt.tiktok.com/ZSkNFfEFm/" }, 
 { url: "https://vt.tiktok.com/ZSkNFUuYt/" }, 
